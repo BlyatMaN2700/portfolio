@@ -1,0 +1,25 @@
+image: 'node:20-alpine'
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - echo 'Pages deployment job'
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+
