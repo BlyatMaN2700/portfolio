@@ -1,0 +1,25 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: pink;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: rgba(255, 192, 203, 0.226);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    padding: 0 2rem;
+  }
+}
