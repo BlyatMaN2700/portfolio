@@ -14,7 +14,7 @@ defineProps({
     </center>
     <h1 class="green" id="name">Noa LIMANDAS</h1>
     <p id="pres">
-      Passionné d'informatique et plus précisément de date, je suis actuellement en deuxième année
+      Passionné d'informatique et plus précisément de data, je suis actuellement en deuxième année
       de BUT informatique à l'Université Lyon 1. Je suis un parcours Administration, gestion et
       exploitation des données dans le but d'en apprendre le plus possible sur cette facette
       fascinante de l'informatique. Je ne sais pour l'instant pas jusqu'où vont me mener mes études
